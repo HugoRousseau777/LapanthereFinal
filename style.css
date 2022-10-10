@@ -48,7 +48,7 @@ article img {
 }
 .navbar-brand img  {
     height: auto;
-    max-height: 40px;
+    max-height: 60px;
 }
 
 /*Ajout font-size > 12px */
@@ -114,8 +114,9 @@ blockquote {
 /* Conformisation */
 
 header {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
     width: 100%;
-    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -206,6 +207,15 @@ address p {
     font-size: 14px;
 }
 
+#footerPadding {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.horaires {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 /*Contact*/
 
 
@@ -254,7 +264,7 @@ form button:hover {
 
 .textFooter {
     color: rgb(55, 55, 55);
-    margin-bottom: 1em;
+    margin-bottom: 0.6em;
 }
 
 
@@ -346,9 +356,7 @@ a:hover {
     padding: 50px;
 }
 
-#footerPadding {
-    padding: 2em 50px;
-}
+
 
 .bg-center,
 .bg-l-edge,
@@ -659,7 +667,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 45px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -1003,13 +1011,12 @@ p {
     max-width: 400px;
     justify-content: center;
     margin: auto;
-    
 }
 
 #socialFlex a {
     margin-left: 6%;
     margin-right: 6%;
-    font-size: 40px;
+    font-size: 35px;
 }
 /*Ajout*/
 h2 {
@@ -1118,12 +1125,6 @@ footer p {
 
 /*Ajout Contact*/
 
-header {
-  
-    height: fit-content;
-    padding-top: 1em !important;
-    padding-bottom: 1em !important;
-}
 
 .liensHeader {
     font-size: 20px;
@@ -1266,6 +1267,7 @@ textarea {
         padding-left: 0;
         padding-right: 0;
     }
+
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -1287,7 +1289,19 @@ textarea {
     .b-parallax {
         background-attachment: scroll;
     }
+
+    .site-navigation {
+        margin-right: 25px;
+    }
+
 }
+
+@media (min-device-width: 1367px) {
+    .site-navigation {
+        margin-right: 25px;
+    }
+}
+
 
 @media (max-width: 991px) {
     .container {
@@ -1351,18 +1365,18 @@ textarea {
         background-attachment: scroll;
     }
 
+header {
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+}
+
 .navbar-brand img {
-    max-width: 100%;
-    height: auto;
     max-height: 40px;
-    
 }
 
 .liensHeader {
     font-size: 20px;
 }
-
-
 
 label {
     font-size: 20px;
@@ -1425,7 +1439,24 @@ textarea {
 }
 
 
+footer {
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+}
 
+
+
+#socialFlex {
+    width: 80%;
+    
+}
+
+#socialFlex a {
+
+    margin-left: 10%;
+}
 
 address {
     font-size: 14px;
