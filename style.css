@@ -159,6 +159,7 @@ header .liensHeader {
 .col-sm-12 {
     padding: 0;
     margin-top: 0;
+
 }
 
 #souhait {
@@ -170,15 +171,15 @@ header .liensHeader {
 }
 
 #bloc-4-portfolio {
-    padding-top: 3em;
+    padding-top: 0em;
+    padding-bottom: 0em;
 }
+
+
 
 #projets {
     margin-top: 0px;
 }
-
-
-
 
 #redonnerVie {
     font-weight: 400;
@@ -1107,15 +1108,21 @@ article h2 {
     font-size: 18px;
 }
 
-main {
-    margin-bottom: 6em;
-}
+
 
 main p {
     font-size: 18px;
-    margin-bottom: 3em;
+    margin-bottom: 0em;
 }
 
+main article {
+    margin-bottom: 2em;
+}
+
+#bloc-4-portfolio {
+    padding-top: 2em;
+    padding-bottom: 7em;
+}
 
 footer p {
     margin: 0;
@@ -1379,6 +1386,30 @@ header {
     padding-top: 1em !important;
     padding-bottom: 1em !important;
 }
+
+#bloc-4-portfolio {
+    margin-top: 0;
+    padding-top: 3em;
+    padding-bottom: 8em;
+}
+
+#realisations {
+    margin-bottom: 1.4em;
+}
+
+#bloc-4-portfolio h4 {
+    margin-bottom: 0.6em;
+}
+
+main article {
+    margin-bottom: 3em;
+}
+
+#article p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 
 .navbar-brand img {
     max-height: 40px;
