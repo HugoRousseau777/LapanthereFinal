@@ -10383,6 +10383,8 @@ jQuery.parseHTML = function( data, context, keepScripts ) {
 /**
  * Load a url into a page
  */
+
+/*
 jQuery.fn.load = function( url, params, callback ) {
 	var selector, type, response,
 		self = this,
@@ -10443,7 +10445,7 @@ jQuery.fn.load = function( url, params, callback ) {
 	return this;
 };
 
-
+*/
 
 
 jQuery.expr.pseudos.animated = function( elem ) {
