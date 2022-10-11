@@ -10384,7 +10384,7 @@ jQuery.parseHTML = function( data, context, keepScripts ) {
  * Load a url into a page
  */
 
-
+/*
 jQuery.fn.load = function( url, params, callback ) {
 	var selector, type, response,
 		self = this,
@@ -10447,7 +10447,7 @@ jQuery.fn.load = function( url, params, callback ) {
 
 
 
-
+*/
 jQuery.expr.pseudos.animated = function( elem ) {
 	return jQuery.grep( jQuery.timers, function( fn ) {
 		return elem === fn.elem;
