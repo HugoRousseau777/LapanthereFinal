@@ -244,6 +244,7 @@ address p {
 
 #flexForm {
     width: 100%;
+    padding-bottom: 4em;
 }
 
 #form_1 {
@@ -1445,10 +1446,22 @@ label {
     
 }
 
+#flexForm {
+    padding-bottom: 0em;
+}
+
+
 #form_1 {
     width: 100%;
     margin-top: -2em;
     margin-bottom: 0;
+}
+#form_1 button {
+    width: 50%;
+    margin: 2em auto 0;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
 }
 #form_1 label {
     font-size: 15px;
