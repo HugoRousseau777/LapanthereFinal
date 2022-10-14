@@ -34,18 +34,18 @@
 <header class="bloc" id="">
 	<div class="flexMenu">
 		<nav class="navHeader">
-				<a class="navbar-brand" href="index.html"><img src="images/lapantheremonochrome.avif" alt="paris web design logo agence web meilleure agence" height="40"/></a>
+				<a class="navbar-brand" href="laPanthere.html"><img src="images/lapantheremonochrome.avif" alt="paris web design logo agence web meilleure agence" height="40"/></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html" class="liensHeader" id="accueil">Accueil</a>
+					<li tabindex="0">
+						<a href="laPanthere.html" class="liensHeader" id="accueil">Accueil</a>
 					</li>
 					<li>
 					</li>
-					<li>
+					<li tabindex="0">
 						<a href="Contact.html" class="liensHeader">Contact</a>
 					</li>
 				</ul>
@@ -61,10 +61,10 @@
 	<div class="container" id="containerContact">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text" id="h1Contact">
+				<h1 class="text-center hero-bloc-text" id="h1Contact" tabindex="0">
 					Parlons web design !
 				</h1>
-				<p class="text-center mg-lg tight-width-whitespace" id="h1P">
+				<p class="text-center mg-lg tight-width-whitespace" id="h1P" tabindex="0">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 				</p>
@@ -104,9 +104,9 @@
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn-lg btn-block sizeContact" type="submit" id="envoiContact">
+					<div tabindex="0"><button class="bloc-button btn-lg btn-block sizeContact" type="submit" id="envoiContact" tabindex="0">
 						Envoyer
-					</button>
+					</button></div>
 				</form>
 			</div>
 			
@@ -125,16 +125,18 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<address class="col-sm-12 text-center textFooter">
-				<h5>Agence La Panthère - Agence web basée à Lyon.</h5>
-				<a class="text-center textFooter" id="mailContact" href="mailto:contact@agencelapanthere.com ">contact@agencelapanthere.com </a>
-				<p>2 place Sathonay 69001 Lyon</p>
-		    	<p class="horaires">Ouvert de 9h à 18h, du lundi au vendredi</p>
+				<h5 tabindex="0">Agence La Panthère - Agence web basée à Lyon.</h5>
+				<div tabindex="0">
+					<a class="text-center textFooter" id="mailContact" href="mailto:contact@agencelapanthere.com ">contact@agencelapanthere.com </a>
+				</div>
+				<p tabindex="0">2 place Sathonay 69001 Lyon</p>
+		    	<p class="horaires" tabindex="0">Ouvert de 9h à 18h, du lundi au vendredi</p>
 			</address>
 			<div class="row row-no-gutters social" id="socialFlex">
-				<a class="" href="www.twitter.com"><span class="fa fa-twitter icon-md"></span></a>
-				<a class="" href="www.facebook.com"><span class="fa fa-facebook icon-md"></span></a>
-				<a class="" href="www.dribbble.com"><span class="fa fa-dribbble icon-md"></span></a>
-				<a class="" href="www.instagram.com"><span class="fa fa-instagram icon-md"></span></a>
+				<a class="" href="www.twitter.com"><span class="fa fa-twitter icon-md" tabindex="0"></span></a>
+				<a class="" href="www.facebook.com"><span class="fa fa-facebook icon-md" tabindex="0"></span></a>
+				<a class="" href="www.dribbble.com"><span class="fa fa-dribbble icon-md" tabindex="0"></span></a>
+				<a class="" href="www.instagram.com"><span class="fa fa-instagram icon-md" tabindex="0"></span></a>
 			</div>
 		</div>
 	</div>
