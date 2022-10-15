@@ -1109,11 +1109,11 @@ article h2 {
     margin-top: 0;
 }
 
-#realisations {
+#realisationsTitre {
     text-transform: none;
-    font-size: 26px;
-    margin-top: 0.5em;
-    margin-bottom: 2em;
+    font-size: 22px;
+    margin-top: 0.6em;
+    margin-bottom: 1.2em;
 }
 
 .img-responsive {
@@ -1138,7 +1138,7 @@ main article {
 
 #bloc-4-portfolio {
     padding-top: 2em;
-    padding-bottom: 7em;
+    padding-bottom: 2em;
 }
 
 footer p {
@@ -1386,25 +1386,61 @@ header {
 #bloc-4-portfolio {
     margin-top: 0;
     padding-top: 3em;
-    padding-bottom: 8em;
+    padding-bottom: 1em;
 }
 
-#realisations {
+.presentation {
+    font-size: 16px;
+    margin-bottom: -1.6em;
+}
+
+blockquote {
+    margin-top: -0.8em;
+}
+
+#maxime {
+    margin-bottom: -1em;
+    font-size: 16px;
+}
+
+#souhait {
+    font-size: 20px;
+}
+
+#realisationsTitre {
+    margin-top: 0;
     margin-bottom: 1.4em;
+    font-size: 18px;
+    padding-right: 20px;
+    font-weight: 700;
+    opacity: 0.8;
+    
+}
+
+.projets {
+    font-size: 14px;
+}
+
+
+article p {
+    margin-top: 0.4em;
+    font-size: 14px;
 }
 
 #bloc-4-portfolio h4 {
     margin-bottom: 0.6em;
+    
 }
 
 main article {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 #article p {
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
 
 
 .navbar-brand img {
