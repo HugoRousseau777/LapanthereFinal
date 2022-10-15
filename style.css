@@ -213,6 +213,11 @@ footer h4 {
     font-size: 15px;
     margin-bottom: 0.4em;
 }
+footer h2 {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0.4em;
+}
 
 #mailContact {
     font-size: 14px;
@@ -1441,7 +1446,10 @@ main article {
     padding-bottom: 0;
 }
 
-
+.navbar-brand {
+    margin-right: 20px;
+    margin-left: -20px;
+}
 
 .navbar-brand img {
     max-height: 40px;
